@@ -1,19 +1,55 @@
-section{
+body{
+    margin:0 auto;
+}
+.navbar{
+    margin:0 auto;
+    display: flex;
+}
+.nav-bar
+{
+ height:65px ;
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ background-color: yellow;
+}
+.text{
+    color: #000;
+    font-size: 20pt;
+    text-decoration-style: double;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.divs{
     background-color: black;
-    height: 600px;
+    height: 700px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .div1{
-    background-color: purple;
+    background-color: yellow;
     width: 300px;
     height: 200px;
-    margin-left: 550px;
-    margin-bottom: 25px;
+    margin-top: 40px;
+    
+}
+.div-imagem{
+    width: 200px;
+    height: 300px;
+    padding-top: 100px;
+}
+.imagem
+{
+    width: 200px;
+    height: 300px;
 }
 .div2
 {
-    background-color: blue;
+    background-color: yellow;
     width: 300px;
     height: 200px;
-    margin-left: 550px;
+    margin-top: 300px;
 
 }
