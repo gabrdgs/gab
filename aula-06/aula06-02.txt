@@ -1,0 +1,21 @@
+//Descobrir o numero que a Paula esta pensando entre 1 e 50
+
+Numero de Inicio;
+Numero do Fim;
+PALPITE=(Numero de Inicio+Numero do Fim)/2;
+Numero da Paula=a;
+
+Dar um PALPITE
+ ENQUANTO
+    Se PALPITE=a
+    {
+        Dizer "eu sabia, li sua mente"
+    }
+    Senão
+    {
+        Definir outro valor para
+        Numero de Inicio
+        Numero de Fim 
+    }
+    Fim ENQUANTO;
+Fim do Algoritmo; 

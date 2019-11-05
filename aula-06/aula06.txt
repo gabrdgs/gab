@@ -1,0 +1,30 @@
+//objetivo: Encontrar um rei de copas
+
+c=coração vermelho;
+p= arvrinha preta;
+o=lozango vermelho;
+e=coração invertido com triangulo preto;
+//Valores para as cartas:
+    a=1;
+    j=11;
+    q=12;
+    k=13;
+    Coringa=15;
+//Demais cartas, valor=numero da carta
+Inicio
+Pegue uma carta;
+    Enquanto (carta=/c);
+    {
+        pegue outra carta;
+    }
+//tendo uma carta de valor c
+    Se (Carta=13);
+    {
+        você achou sua carta;
+    }
+    Se não
+    {
+        pegue outra carta. 
+    }
+    Fim Se
+Fim do Algoritmo
